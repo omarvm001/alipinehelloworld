@@ -1,2 +1,2 @@
 # alipinehelloworld
-mini-app for testing. v1
+mini-app for testing. v2
