@@ -1,6 +1,6 @@
 pipeline {
      environment {
-       ID_DOCKER = "${ID_DOCKER_PARAMS}"
+       ID_DOCKER = "${ID_DOCKER_PARAMS ?: 'omarvm001'}" // Utilise 'omarvm001' par défaut si ID_DOCKER_PARAMS n'est pas défini
        IMAGE_NAME = "alpinehelloworld"
        IMAGE_TAG = "latest"
 //       PORT_EXPOSED = "80" à paraméter dans le job
